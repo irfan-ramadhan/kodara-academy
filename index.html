@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Coding Academy — belajar, berkarya, dan bangun masa depan digital." />
+  <title>KODARA Academy — Learn, Build, Grow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Buka kesempatanmu di dunia digital <span class="announcement-arrow">↗</span></div>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Kodein Academy beranda"><span class="brand-mark">&lt;/&gt;</span><span>KODARA<span class="brand-light">ACADEMY</span></span></a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#galeri" data-view-link="galeri">Galeri</a>
+      <a class="nav-link" href="#daftar" data-view-link="daftar">Pendaftaran</a>
+    </nav>
+    <a class="header-cta" href="#daftar" data-view-link="daftar">Mulai belajar <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="beranda">
+    <section class="view gallery-view is-visible" id="galeri" aria-labelledby="hero-title">
+      <div class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER STARTS HERE</p>
+          <h1 id="hero-title">Ide besar.<br /><span class="accent-word">Kode nyata.</span></h1>
+          <p class="hero-description">Tempat kamu mengubah rasa penasaran menjadi karya digital. Belajar bareng, bikin sesuatu yang keren, dan tumbuh bersama komunitas.</p>
+          <div class="hero-actions"><a href="#daftar" data-view-link="daftar" class="button button-dark">Gabung kelas <span>↗</span></a><a href="#aktivitas" class="text-link">Jelajahi aktivitas <span>↓</span></a></div>
+          <div class="hero-proof"><div class="avatar-stack"><span>✦</span><span>JS</span><span>Py</span></div><div><strong>Belajar sambil bikin</strong><small>Proyek nyata, bukan teori saja.</small></div></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-grid"></div>
+          <div class="hero-image-frame"><img src="images/hero-workshop.jpg" alt="Peserta belajar coding bersama di ruang workshop" /></div>
+          <div class="floating-code"><span class="code-dot pink"></span><span class="code-dot yellow"></span><span class="code-dot green"></span><pre><span class="code-purple">const</span> future = <span class="code-green">'yours'</span>;
+<span class="code-blue">build</span>(future); <span class="code-comment">// let's go!</span></pre></div>
+          <div class="sticker"><span>MAKE</span><span>IT</span><strong>REAL!</strong><span class="sticker-star">✳</span></div>
+          <div class="image-caption"><span class="caption-pulse"></span> LEARN BY DOING <span>— 01 / 04</span></div>
+        </div>
+      </div>
+      <div class="ticker" aria-label="Program pembelajaran"><div class="ticker-track"><span>WEB DEVELOPMENT <b>✳</b></span><span>CREATIVE CODING <b>✳</b></span><span>BUILD YOUR PORTFOLIO <b>✳</b></span><span>GROW TOGETHER <b>✳</b></span><span>WEB DEVELOPMENT <b>✳</b></span><span>CREATIVE CODING <b>✳</b></span><span>BUILD YOUR PORTFOLIO <b>✳</b></span><span>GROW TOGETHER <b>✳</b></span></div></div>
+      <section class="activities section-wrap" id="aktivitas">
+        <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE SNEAK PEEK</p><h2>Belajar itu <span class="serif-accent">seru.</span><br />Lihat sendiri.</h2></div><p class="section-intro">Setiap sesi punya cerita: dari baris kode pertama sampai ide yang akhirnya jadi produk.</p></div>
+        <div class="gallery-grid">
+          <article class="activity-card card-large"><div class="activity-image"><img src="images/activity-collaboration.jpg" alt="Peserta berdiskusi sambil mengerjakan proyek coding" loading="lazy" /><span class="image-index">01 / TEAMWORK</span></div><div class="activity-info"><div><h3>Build it together</h3><p>Kolaborasi bikin proyek, bertukar ide, dan belajar memecahkan masalah bareng tim.</p></div><span class="activity-icon">↗</span></div></article>
+          <article class="activity-card"><div class="activity-image"><img src="images/activity-workshop.jpg" alt="Mentor menjelaskan materi pemrograman kepada peserta" loading="lazy" /><span class="image-index">02 / WORKSHOP</span></div><div class="activity-info"><div><h3>Learn from mentors</h3><p>Bedah konsep coding dengan mentor yang siap membantu.</p></div><span class="activity-icon">↗</span></div></article>
+          <article class="activity-card"><div class="activity-image"><img src="images/activity-laptop.jpg" alt="Peserta fokus menulis kode pada laptop" loading="lazy" /><span class="image-index">03 / DEEP FOCUS</span></div><div class="activity-info"><div><h3>Make it happen</h3><p>Praktik langsung untuk mengubah teori jadi karya yang bisa dicoba.</p></div><span class="activity-icon">↗</span></div></article>
+          <article class="activity-card card-wide"><div class="activity-image"><img src="images/activity-presentation.jpg" alt="Peserta mempresentasikan hasil proyek di depan kelompok" loading="lazy" /><span class="image-index">04 / SHOWCASE</span></div><div class="activity-info"><div><h3>Show what you create</h3><p>Presentasikan hasil karyamu, dapatkan masukan, dan rayakan setiap progres.</p></div><span class="activity-icon">↗</span></div></article>
+        </div>
+        <div class="closing-cta"><div><p class="eyebrow"><span class="eyebrow-line"></span> READY WHEN YOU ARE</p><h2>Project pertamamu<br />dimulai dari <span class="serif-accent">sini.</span></h2></div><a class="button button-lime" href="#daftar" data-view-link="daftar">Daftar sekarang <span>↗</span></a><span class="closing-doodle">✳</span></div>
+      </section>
+    </section>
+
+    <section class="view registration-view" id="daftar" aria-labelledby="register-title" hidden>
+      <div class="registration-shell section-wrap">
+        <div class="registration-intro"><p class="eyebrow"><span class="eyebrow-line"></span> ONE STEP CLOSER</p><h1 id="register-title">Yuk, mulai<br /><span class="accent-word">perjalananmu.</span></h1><p>Isi data di bawah ini untuk bergabung dengan komunitas pembelajar Kodein Academy.</p><div class="registration-note"><span class="note-icon">✳</span><div><strong>Mulai dari rasa ingin tahu.</strong><p>Kamu nggak harus jago dulu untuk mulai belajar coding.</p></div></div><div class="mini-code-card"><span class="mini-card-label">YOUR FUTURE, YOUR CODE</span><pre><span>01</span> &nbsp; learn();
+<span>02</span> &nbsp; build();
+<span>03</span> &nbsp; repeat(); <b>✦</b></pre></div></div>
+        <div class="form-panel"><div class="form-panel-top"><div><span class="step-label">FORM PENDAFTARAN</span><h2>Data calon peserta</h2></div><span class="form-count">01 <i>—</i> 01</span></div><p class="required-note"><span>*</span> Wajib diisi</p>
+          <form id="registration-form" novalidate>
+            <div class="form-grid"><div class="field"><label for="nik">NIK <span>*</span></label><input id="nik" name="nik" type="text" inputmode="numeric" maxlength="16" placeholder="16 digit NIK" required pattern="[0-9]{16}" /><small class="field-hint">Masukkan 16 digit angka.</small></div>
+            <div class="field"><label for="nama">Nama lengkap <span>*</span></label><input id="nama" name="nama" type="text" placeholder="Nama sesuai identitas" required autocomplete="name" /></div>
+            <div class="field"><label for="gender">Jenis kelamin <span>*</span></label><select id="gender" name="gender" required><option value="">Pilih jenis kelamin</option><option value="Laki-laki">Laki-laki</option><option value="Perempuan">Perempuan</option></select></div>
+            <div class="field"><label for="hp">Nomor HP <span>*</span></label><input id="hp" name="hp" type="tel" inputmode="tel" placeholder="08xxxxxxxxxx" required minlength="9" maxlength="15" /></div>
+            <div class="field field-full"><label for="alamat">Alamat lengkap <span>*</span></label><textarea id="alamat" name="alamat" rows="3" placeholder="Jalan, nomor rumah, kelurahan, kota..." required></textarea></div>
+            <div class="field field-full"><label for="bahasa">Bahasa pemrograman yang diminati <span>*</span></label><select id="bahasa" name="bahasa" required><option value="">Pilih bahasa yang ingin dipelajari</option><option>JavaScript</option><option>Python</option><option>HTML &amp; CSS</option><option>Java</option><option>PHP</option><option>C / C++</option><option>Belum tahu, ingin eksplorasi</option></select></div></div>
+            <label class="consent-row"><input type="checkbox" id="consent" required /><span class="custom-check"></span><span>Saya memastikan data yang diisi sudah benar.</span></label>
+            <button type="submit" class="button button-dark submit-button">Simpan pendaftaran <span>↗</span></button><p class="privacy-note"><span>◈</span> Data ditampilkan di halaman ini untuk keperluan tugas demonstrasi.</p>
+          </form>
+          <section class="result-panel" id="result-panel" aria-live="polite" hidden><div class="result-heading"><span class="success-mark">✓</span><div><p class="step-label">PENDAFTARAN TERCATAT</p><h2>Nice to meet you!</h2><p>Berikut data yang kamu masukkan.</p></div></div><dl id="result-list" class="result-list"></dl><div class="result-actions"><button type="button" class="button button-lime" id="edit-button">Edit data</button><button type="button" class="text-link" id="print-button">Cetak hasil ↗</button></div></section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#galeri" data-view-link="galeri"><span class="brand-mark">&lt;/&gt;</span><span>KODARA<span class="brand-light">ACADEMY</span></span></a><p>Belajar hari ini. Bangun kemungkinan esok hari.</p><span>© 2026 Kodara Academy</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
